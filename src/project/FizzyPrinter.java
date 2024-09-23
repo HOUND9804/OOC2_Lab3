@@ -6,7 +6,7 @@ public class FizzyPrinter {
     public FizzyPrinter(boolean isUpperCase) {
         this.isUpperCase=isUpperCase;
     }
-
+    System.out.println("Print:");
     public String printFizzy(int n) {
         if(n%3==0&&n%5!=0&&n%7!=0){
             if(isUpperCase){
@@ -45,4 +45,5 @@ public class FizzyPrinter {
             return "Boom";
         }
     }
+
 }
